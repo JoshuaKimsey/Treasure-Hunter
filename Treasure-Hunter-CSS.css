@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
+
+* {
+    font-family: 'Roboto', Roboto, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: inline;!important
+}
+
+body {
+    background-image: url(waterfall-828681_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.backgroundCover {
+    background: rgba(255, 255, 200, 0.4);;
+    height: 100%;
+}
+
+.wrapper {
+    background: #eeeeee;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 5px;
+    height: 1000px;
+}
+
+.gold {
+    text-decoration: underline;
+}

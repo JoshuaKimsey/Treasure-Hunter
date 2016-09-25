@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta  charset="utf-8" />
+    <title>Lost Fortune</title>
+    <link href="Treasure-Hunter-CSS.css" type="text/css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+    <audio autoplay="true" loop="true"><source src="Ossuary 2 - Turn.mp3" type="audio/mpeg" /> Your browser does not support audio playing!</audio>
+    <div class="backgroundCover">
+        <div class="wrapper">
+            <h1>Lost Fortune</h1>
+            <h4>By hsoJ95</h4>
+            <hr /><br />
+            <div class="show" id="TH-intro">
+                Welcome to Lost-Fortune! A game of adventure, deception, and riches beyond your wildest dreams! <br /><br />
+
+                <form action=""><fieldset>
+
+                To begin, what is your name?<br />
+                <input type="text" id="userName" name="userName" maxlength="30" /><br /><br />
+
+                Are you ready to begin your adventure?<br />
+                <input type="button" id="beginButton" value="Begin" onclick="" /><br />
+                </fieldset>
+                </form>
+            </div>
+            <div class="hidden" id="TH-story">
+                A brave group of <em class="adventurers"></em> adventurers set out on a difficult quest to find a Sacred Tome for the Central Imperial University.
+                A Tome that could be incredibly valuable monetarily, and priceless in terms of its knowledge! They were led by the great explorer <b class="name"></b>! The expedition was being funded by the Emperor himself. This shows how truly important the knowledge contained in the Tome must be, as the Emperor rarely involves himself with the Central University's affairs.<br />
+                Within a week, the expedition crew set off on their voyage! Along the way, <b class="name"></b> thought that <em class="traitors"></em> might be traitors to the Empire, wanting to steal the Tome for a foreign power, but to keep from raising alarm, said nothing to the others.
+                After months of searching, they finally found the place where the tome was said to be hidden.<br />
+                It took <b class="name"></b> many hours of searching the temple to find the inner sanctum, the place where the tome would be located.
+                Inside the inner sanctum, lay Sacred Tome, completely untouched by the passing of time. After grabbing the book, and escaping the now collapsing temple, <b class="name"></b> returned to the camp near the temple.<br />
+                But at the camp, <b class="name"></b> was grabbed and tied up, at which point it became clear that <em class="traitors"></em> were traitors and the other <em class="survivors"></em> were tied up and gaged aswell!
+                Thinking fast, <b class="name"></b> managed to escape from the ropes holding them, and knock the traitors back into the temple, which collapsed immediately upon that happening!
+                Of the <em class="adventurers"></em> adventurers that were with you, only <em class="survivors"></em> were actually loyal to the Empire and survived! <br />
+                After returning to the Imperial port the expedition had departed from, <b class="name"></b> and the other loyal survivors headed to the Central University to get the value of the Tome.
+                They soon learned that the Sacred Tome was far more valuable than expected, an incredible <b class="gold"></b> gold coins! A small fortune by Imperial standards!<br />
+                <b class="name"></b> and the loyal survivors decided to split the <b class="gold"></b> gold coins among themselves evenly. <span id="sharingIsCaring"></span> gold for each survivor<span class="leftOver"></span><br /><br />
+
+                <b id="final">Thank you for playing! To be continued...</b><br /><br />
+
+                <form action=""><fieldset>
+
+                Click here to see the credits and play again!<br />
+                <input type="button" value="Credits" id="creditsButton" onclick='' /></fieldset></form>
+            </div>
+            <div class="hidden" id="TH-credits">
+                <h3>Credits:</h3>
+                Creaded by <a href="http://hsoj95.deviantart.com">hsoj95</a><br /><br />
+
+                Pictures from <a href="http://www.pixabay.com">Pixabay</a><br /><br />
+
+                Music:<br />
+                Ossuary 2 - Turn Kevin MacLeod (<a href="http://incompetech.com">incompetech.com</a>)
+                Licensed under Creative Commons: By Attribution 3.0 License
+                <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a><br /><br />
+
+                Font Used: Roboto<br />
+                Font provided by Google Fonts<br />
+                <a href="http://www.google.com/fonts">Google.com/Fonts</a><br /><br />
+                <input type="button" value="Play Again?" id="playAgain" onclick='location.reload(true);' />
+            </div>
+        </div>
+    </div>
+    <script src="Treasure-Hunter.js"></script>
+</body>
+</html>
